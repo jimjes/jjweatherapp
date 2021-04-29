@@ -1,4 +1,4 @@
-const apiKey = 'c824b687505862ac13832632bdde7b0f';
+const apiKey = '87557ca63a853f6e5cb1c30813e124fc';
 const form = document.querySelector('#weather-form');
 const placeholder = document.querySelector('#weather-result')
 const input = document.querySelector("input");

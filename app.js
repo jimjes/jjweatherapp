@@ -11,4 +11,5 @@ function getTheWeather(city){
 
 form.addEventListener("submit", async e => {
     e.preventDefault();
+  console.log(input.value);
 })

@@ -6,10 +6,15 @@ const input = document.querySelector("input");
 // img url https://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png
 
 function getTheWeather(city){
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
+  return fetch(url).then(response => response.json());
+  
 }
 
 
 form.addEventListener("submit", async e => {
     e.preventDefault();
-  console.log(input.value);
+  const result = await getTheWeather(input.value);
+  console.log(result);
 })

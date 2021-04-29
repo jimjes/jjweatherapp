@@ -17,12 +17,13 @@ form.addEventListener("submit", async e => {
     e.preventDefault();
   const result = await getTheWeather(input.value);
   console.log(result);
-  const template = 
+  const template = `
   <h2>${result.name}</h2>
   Temperature: ${result.main.temp}
   Humidity: ${result.main.humidity}
-  <img src="https://www.openweathermap.org/img/wn/${result.weather[0].icon}@4x.png">
+  <img src="https://openweathermap.org/img/wn/${result.weather[0].icon}@4x.png"> `
   
   placeholder.innerHTML = template;
   
 })
+    

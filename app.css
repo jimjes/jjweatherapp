@@ -3,8 +3,8 @@
   --lite-color: #D8ECE1;
   --dark-color: #3A3AF2;
   --button-bg-color: #6495ED;
-  --white-bg-cards: #D8ECE1;
-  --titles-color: #49CA85;
+  --white-bg-cards: #F0FFFF;
+  --titles-color: #030351;
 }
 
 body {
@@ -48,6 +48,7 @@ button {
   border-radius: 0.5rem;
   padding: 25px;
   box-shadow: 0 41px 8px 0 rgb(0 0 0 / 50%);
+  text-align: center;
 }
 
 .container {
@@ -56,6 +57,6 @@ button {
 }
 
 h1{
-    color: var(--button-bg-color);
+    color: var(--titles-color);
 
 }

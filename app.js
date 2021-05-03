@@ -21,12 +21,14 @@ form.addEventListener("submit", async e => {
   const template = `
   
   <div class="card">
-  <h2>${result.name}</h2>
+  <h2>${result.name}, ${result.sys.country}</h2>
+  
+  <p><img src="https://openweathermap.org/img/wn/${result.weather[0].icon}@4x.png"> </p>
+
   <b>Temperature: ${result.main.temp}<sup>°C</sup></b><br />
   <b>Max Temperature: ${result.main.temp_max}<sup>°C</sup></b><br />
   <b>Min Temperature: ${result.main.temp_min}<sup>°C</sup></b><br />
-  <b>Humidity: ${result.main.humidity}</b>
-  <p><img src="https://openweathermap.org/img/wn/${result.weather[0].icon}@4x.png"> </p>
+  <p><b>Humidity: ${result.main.humidity}</b></p>
 
 </div>
   `

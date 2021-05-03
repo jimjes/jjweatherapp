@@ -1,15 +1,15 @@
 :root{
-  --main-bg-color: #07063B;
+  --main-bg-color: #02041D;
   --lite-color: #D8ECE1;
   --dark-color: #3A3AF2;
-  --button-bg-color: #6495ED;
+  --button-bg-color: #1E9FFF;
   --white-bg-cards: #F0FFFF;
-  --titles-color: #3F82FB;
+  --titles-color: #1E9FFF;
 }
 
 body {
   background-color: var(--main-bg-color);
-  font-family: Montserrat, Helvetica, Arial;
+  font-family: Oswald, Helvetica, Arial;
 }
 
 
@@ -19,11 +19,11 @@ input{
   height: 40px;
   padding: 5px 5px 10px;
   border: 0px solid #222;
-  background-color: #333;
+  background: rgba(102,102,102,0.3);
   color: #fff;
   border-radius: 0px;
   width: 100%;
-    text-algin: center;
+  text-algin: center;
 
 }
 
@@ -33,8 +33,8 @@ input::placeholder {
 
 button {
   width: 100%;
-  padding: 10px;
-  font-size: 14px;
+  padding: 20px;
+  font-size: 21px;
   font-weight: bold;
   margin-top: 1rem;
   border-radius: 2rem;
@@ -51,8 +51,9 @@ button {
   padding-bottom: 25px;
   padding-left: 50px;
   padding-right: 50px;
-  box-shadow: 0 41px 8px 0 rgb(0 0 0 / 50%);
+  box-shadow: 10px 20px 8px 10px rgb(0 0 0 / 50%);
   text-algin: center;
+  color:#ffffff;
 }
 
 .container {
@@ -76,5 +77,9 @@ h2{
 #grad1 {
   height: auto;
   background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#D8ECE1, #E0E0FF);
+  background-image: linear-gradient(#330271, #03022E, #180134);
+}
+
+#imgsha {
+  box-shadow: 5px 10px 8px 10px rgb(0 0 0 / 50%);
 }

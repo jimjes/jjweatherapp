@@ -1,0 +1,19 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "My Weather App",
+  "short_name": "MyWeather",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "https://jj-weather.glitch.me/",
+  "background_color": "#000000",
+  "theme_color": "transparent",
+  "description": "",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": "false",
+  "icons": [],
+  "url": "https://jj-weather.glitch.me/",
+  "generated": true,
+  "screenshots": []
+}

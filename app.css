@@ -1,15 +1,15 @@
 :root{
-  --main-bg-color: #030351;
-  --lite-color: #FFFDFD;
-  --dark-color: #182a2e;
-  --button-bg-color: #000000;
+  --main-bg-color: #D8ECE1;
+  --lite-color: #F2F8F5
+  --dark-color: #3A3AF2;
+  --button-bg-color: #6495ED;
 }
 
 body {
-  background-color: var(--bg-color)
+  background-color: var(--main-bg-color)
 }
 
-button,
+
 input{
   margin-top: 2rem;
   font-size: 2rem;
@@ -19,4 +19,20 @@ input{
   background: none;
   outline: none;
   color: inherit;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  color: var(--placeholder-color);
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--button-bg-color);
+  color: #ffffff;
 }

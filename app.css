@@ -58,5 +58,10 @@ button {
 
 h1{
     color: var(--titles-color);
+}
 
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow);
 }

@@ -5,8 +5,8 @@ const input = document.querySelector("input");
 // const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 // img url https://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png
 
-function getTheWeather(city){
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+function getTheWeather(localcity){
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${localcity}&appid=${apiKey}&units=metric`;
 
   return fetch(url).then(response => response.json());
   
@@ -19,7 +19,8 @@ form.addEventListener("submit", async e => {
   console.log(result);
   const template = `
   <h2>${result.name}</h2>
-  Temperature: ${result.main.temp}
+  <b>Temperature: ${result.main.temp}</b>
+  <b>Max Temperature: ${result.main.temp_max}</b>
   Humidity: ${result.main.humidity}
   <img src="https://openweathermap.org/img/wn/${result.weather[0].icon}@4x.png"> `
   

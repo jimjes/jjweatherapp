@@ -1,0 +1,22 @@
+:root{
+  --main-bg-color: #030351;
+  --lite-color: #FFFDFD;
+  --dark-color: #182a2e;
+  --button-bg-color: #000000;
+}
+
+body {
+  background-color: var(--bg-color)
+}
+
+button,
+input{
+  margin-top: 2rem;
+  font-size: 2rem;
+  height: 40px;
+  padding: 5px 5px 10px;
+  border: 1px solid;
+  background: none;
+  outline: none;
+  color: inherit;
+}

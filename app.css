@@ -1,9 +1,10 @@
 :root{
-  --main-bg-color: #D8ECE1;
-  --lite-color: #F2F8F5
+  --main-bg-color: #F2F8F5;
+  --lite-color: #D8ECE1;
   --dark-color: #3A3AF2;
   --button-bg-color: #6495ED;
-  --white-bg-cards: #ffffff;
+  --white-bg-cards: #D8ECE1;
+  --titles-color: #49CA85;
 }
 
 body {
@@ -17,11 +18,12 @@ input{
   font-size: 1.5rem;
   height: 40px;
   padding: 5px 5px 10px;
-  border: 1px solid #;
+  border: 1px solid #666666;
   background: none;
   outline: none;
   color: inherit;
   border-radius: 10px;
+  width: 70%;
 }
 
 input::placeholder {
@@ -29,14 +31,16 @@ input::placeholder {
 }
 
 button {
-  width: 50%;
+  width: 70%;
   padding: 10px;
   font-size: 14px;
   font-weight: bold;
   margin-top: 1rem;
-  border-radius: 0.5rem;
-  background-color: var(--button-bg-color);
-  color: var(--lite-color);
+  border-radius: 2rem;
+  background-color: var(--dark-color);
+  color: #ffffff;
+  border: 1px solid #6495ED;
+
 }
 
 .card {
@@ -49,4 +53,9 @@ button {
 .container {
   display: grid;
   place-items: center;
+}
+
+h1{
+    color: var(--button-bg-color);
+
 }

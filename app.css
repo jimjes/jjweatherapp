@@ -1,10 +1,10 @@
 :root{
-  --main-bg-color: #F2F8F5;
+  --main-bg-color: #07063B;
   --lite-color: #D8ECE1;
   --dark-color: #3A3AF2;
   --button-bg-color: #6495ED;
   --white-bg-cards: #F0FFFF;
-  --titles-color: #030351;
+  --titles-color: #3F82FB;
 }
 
 body {
@@ -40,7 +40,7 @@ button {
   border-radius: 2rem;
   background-color: var(--dark-color);
   color: #ffffff;
-  border: 1px solid #6495ED;
+  border: 0px solid #6495ED;
   text-algin: center;
 }
 
@@ -63,14 +63,18 @@ button {
 h1{
   color: var(--titles-color);
   text-align: center;
+  letter-spacing: 1px;
+
 }
 h2{
   color: var(--titles-color);
   text-align: center;
+  letter-spacing: 1px;
+
 }
 
 #grad1 {
   height: auto;
   background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#D8ECE1, #F2F8F5);
+  background-image: linear-gradient(#D8ECE1, #E0E0FF);
 }

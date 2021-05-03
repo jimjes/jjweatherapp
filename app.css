@@ -10,6 +10,8 @@
 body {
   background-color: var(--main-bg-color);
   font-family: Montserrat, Helvetica, Arial;
+    text-align: center;
+    align-items: center;
 }
 
 
@@ -47,13 +49,17 @@ button {
   border-radius: 0.5rem;
   padding: 25px;
   box-shadow: 0 41px 8px 0 rgb(0 0 0 / 50%);
-  text-align: center;
+  width: 70%;
+    text-align: center;
+    align-items: center;
 }
 
 .container {
   display: grid;
   place-items: center;
-  width: 70%;
+  width: 70%;text-align: center;
+      text-align: center;
+    align-items: center;
 
 }
 
@@ -65,4 +71,6 @@ h1{
   height: auto;
   background-color: red; /* For browsers that do not support gradients */
   background-image: linear-gradient(#D8ECE1, #F2F8F5);
+      text-align: center;
+    align-items: center;
 }

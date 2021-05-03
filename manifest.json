@@ -1,18 +1,21 @@
 {
   "dir": "ltr",
   "lang": "en",
-  "name": "My Weather App",
-  "short_name": "MyWeather",
+  "name": "JJ's Global Climate App",
+  "short_name": "JJ-Weather",
   "scope": "/",
-  "display": "standalone",
+  "display": "fullscreen",
   "start_url": "https://jj-weather.glitch.me/",
   "background_color": "#000000",
   "theme_color": "transparent",
   "description": "",
   "orientation": "any",
-  "related_applications": [],
-  "prefer_related_applications": "false",
-  "icons": [],
+  "icons": [
+    {
+      "src": "https://cdn.glitch.com/6face704-7720-443d-9367-5f8d33bd4396%2Fandroid-launchericon-192-192.png?v=1620060593718",
+      "sizes": "192x192"
+    }
+  ],
   "url": "https://jj-weather.glitch.me/",
   "generated": true,
   "screenshots": []

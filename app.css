@@ -18,11 +18,10 @@ input{
   font-size: 1.5rem;
   height: 40px;
   padding: 5px 5px 10px;
-  border: 1px solid #666666;
-  background: none;
-  outline: none;
-  color: inherit;
-  border-radius: 10px;
+  border: 0px solid #222;
+  background-color: #333;
+  color: #fff;
+  border-radius: 0px;
   width: 70%;
 }
 
@@ -54,6 +53,8 @@ button {
 .container {
   display: grid;
   place-items: center;
+  width: 70%;
+
 }
 
 h1{
@@ -61,7 +62,7 @@ h1{
 }
 
 #grad1 {
-  height: 200px;
+  height: auto;
   background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(red, yellow);
+  background-image: linear-gradient(#D8ECE1, #F2F8F5);
 }

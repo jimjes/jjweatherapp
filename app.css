@@ -3,10 +3,12 @@
   --lite-color: #F2F8F5
   --dark-color: #3A3AF2;
   --button-bg-color: #6495ED;
+  --white-bg-cards: #ffffff;
 }
 
 body {
-  background-color: var(--main-bg-color)
+  background-color: var(--main-bg-color);
+  font-family: Montserrat, Helvetica, Arial;
 }
 
 
@@ -34,5 +36,12 @@ button {
   margin-top: 1rem;
   border-radius: 0.5rem;
   background-color: var(--button-bg-color);
-  color: #ffffff;
+  color: var(--lite-color);
+}
+
+.card {
+  background-color: var(--white-bg-cards);
+  border-radius: 0.5rem;
+  padding: 25px;
+    box-shadow: 
 }

@@ -20,7 +20,7 @@ form.addEventListener("submit", async e => {
   console.log(result);
   const template = `
   
-  <div class="card" id="grad1">
+  <div class="card">
   <h2>${result.name}, ${result.sys.country}</h2>
   
   <p><img src="https://openweathermap.org/img/wn/${result.weather[0].icon}@4x.png"></p>

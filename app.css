@@ -10,8 +10,6 @@
 body {
   background-color: var(--main-bg-color);
   font-family: Montserrat, Helvetica, Arial;
-    text-align: center;
-    align-items: center;
 }
 
 
@@ -24,7 +22,7 @@ input{
   background-color: #333;
   color: #fff;
   border-radius: 0px;
-  width: 70%;
+  width: 90%;
 }
 
 input::placeholder {
@@ -32,7 +30,7 @@ input::placeholder {
 }
 
 button {
-  width: 70%;
+  width: 90%;
   padding: 10px;
   font-size: 14px;
   font-weight: bold;
@@ -49,28 +47,24 @@ button {
   border-radius: 0.5rem;
   padding: 25px;
   box-shadow: 0 41px 8px 0 rgb(0 0 0 / 50%);
-  width: 70%;
-    text-align: center;
-    align-items: center;
+  text-algin: center;
+
 }
 
 .container {
   display: grid;
   place-items: center;
-  width: 70%;text-align: center;
-      text-align: center;
-    align-items: center;
-
+  width: 90%;
 }
 
 h1{
     color: var(--titles-color);
+  text-aligh: center;
 }
 
 #grad1 {
   height: auto;
   background-color: red; /* For browsers that do not support gradients */
   background-image: linear-gradient(#D8ECE1, #F2F8F5);
-      text-align: center;
-    align-items: center;
+
 }

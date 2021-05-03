@@ -1,4 +1,5 @@
 const apiKey = '87557ca63a853f6e5cb1c30813e124fc';
+const unit = 'metric'
 const form = document.querySelector('#weather-form');
 const placeholder = document.querySelector('#weather-result')
 const input = document.querySelector("input");
@@ -21,11 +22,11 @@ form.addEventListener("submit", async e => {
   
   <div class="card">
   <h2>${result.name}</h2>
-  <b>Temperature: ${result.main.temp}<sup>°C</sup></b>
-  <b>Max Temperature: ${result.main.temp_max}<sup>°C</sup></b>
-  <b>Min Temperature: ${result.main.temp_min}<sup>°C</sup><</b>
+  <b>Temperature: ${result.main.temp}<sup>°C</sup></b><br />
+  <b>Max Temperature: ${result.main.temp_max}<sup>°C</sup></b><br />
+  <b>Min Temperature: ${result.main.temp_min}<sup>°C</sup></b><br />
   <b>Humidity: ${result.main.humidity}</b>
-  <img src="https://openweathermap.org/img/wn/${result.weather[0].icon}@4x.png"> 
+  <p><img src="https://openweathermap.org/img/wn/${result.weather[0].icon}@4x.png"> </p>
 
 </div>
   `

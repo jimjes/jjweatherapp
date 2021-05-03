@@ -22,7 +22,9 @@ input{
   background-color: #333;
   color: #fff;
   border-radius: 0px;
-  width: 90%;
+  width: 100%;
+    text-algin: center;
+
 }
 
 input::placeholder {
@@ -30,7 +32,7 @@ input::placeholder {
 }
 
 button {
-  width: 90%;
+  width: 100%;
   padding: 10px;
   font-size: 14px;
   font-weight: bold;
@@ -39,32 +41,36 @@ button {
   background-color: var(--dark-color);
   color: #ffffff;
   border: 1px solid #6495ED;
-
+  text-algin: center;
 }
 
 .card {
   background-color: var(--white-bg-cards);
   border-radius: 0.5rem;
-  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
   box-shadow: 0 41px 8px 0 rgb(0 0 0 / 50%);
   text-algin: center;
-
 }
 
 .container {
   display: grid;
   place-items: center;
-  width: 90%;
 }
 
 h1{
-    color: var(--titles-color);
-  text-aligh: center;
+  color: var(--titles-color);
+  text-align: center;
+}
+h2{
+  color: var(--titles-color);
+  text-align: center;
 }
 
 #grad1 {
   height: auto;
   background-color: red; /* For browsers that do not support gradients */
   background-image: linear-gradient(#D8ECE1, #F2F8F5);
-
 }

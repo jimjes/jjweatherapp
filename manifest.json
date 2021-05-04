@@ -1,8 +1,8 @@
 {
   "dir": "ltr",
   "lang": "en",
-  "name": "JJ's Global Climate App",
-  "short_name": "JJ-Weather",
+  "name": "JJ's Global Climate Monitoring Center",
+  "short_name": "GCMC-JJ",
   "scope": "/",
   "display": "fullscreen",
   "start_url": "https://jj-weather.glitch.me/",

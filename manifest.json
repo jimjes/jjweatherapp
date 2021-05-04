@@ -12,39 +12,39 @@
   "orientation": "any",
   "icons": [
    {
-      "src": "android/android-launchericon-512-512.png",
+      "src": "assets/android-launchericon-512-512.png",
       "sizes": "512x512"
     },
     {
-      "src": "android/android-launchericon-192-192.png",
+      "src": "assets/android-launchericon-192-192.png",
       "sizes": "192x192"
     },
     {
-      "src": "android/android-launchericon-144-144.png",
+      "src": "https://cdn.glitch.com/559f08ae-4a94-419c-9cb9-b09347843d08%2Fandroid-launchericon-144-144.png?v=1620061392080",
       "sizes": "144x144"
     },
     {
-      "src": "android/android-launchericon-96-96.png",
+      "src": "assets/android-launchericon-96-96.png",
       "sizes": "96x96"
     },
     {
-      "src": "android/android-launchericon-72-72.png",
+      "src": "assets/android-launchericon-72-72.png",
       "sizes": "72x72"
     },
     {
-      "src": "android/android-launchericon-48-48.png",
+      "src": "assets/android-launchericon-48-48.png",
       "sizes": "48x48"
     },
     {
-      "src": "chrome/chrome-extensionmanagementpage-48-48.png",
+      "src": "assets/chrome-extensionmanagementpage-48-48.png",
       "sizes": "48x48"
     },
     {
-      "src": "chrome/chrome-favicon-16-16.png",
+      "src": "assets/chrome-favicon-16-16.png",
       "sizes": "16x16"
     },
     {
-      "src": "chrome/chrome-installprocess-128-128.png",
+      "src": "assets/chrome-installprocess-128-128.png",
       "sizes": "128x128"
     }
   ],

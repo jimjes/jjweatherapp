@@ -45,6 +45,9 @@ button {
 }
 
 .card {
+  text-algin: center;
+  color:#ffffff;
+  font-size: 24px;
   background-color: var(--white-bg-cards);
   border-radius: 0.5rem;
   padding-top: 25px;
@@ -52,9 +55,7 @@ button {
   padding-left: 50px;
   padding-right: 50px;
   box-shadow: 10px 20px 8px 10px rgb(255 255 255 / 7%);
-  text-algin: center;
-  color:#ffffff;
-  font-size: 10px;
+
 }
 
 .container {
@@ -68,11 +69,16 @@ h1{
   letter-spacing: 1px;
 
 }
+
 h2{
   color: var(--titles-color);
   text-align: center;
   letter-spacing: 1px;
+  line-height: 8px;
 
+}
+p {
+  text-align: center;
 }
 
 #grad1 {

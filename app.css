@@ -8,8 +8,8 @@
 }
 
 body {
-  background-color: var(--main-bg-color);
-font-family: font-family: 'Raleway', sans-serif;
+background-color: var(--main-bg-color);
+font-family: 'Raleway', sans-serif;
 }
 
 
@@ -51,9 +51,10 @@ button {
   padding-bottom: 25px;
   padding-left: 50px;
   padding-right: 50px;
-  box-shadow: 10px 20px 8px 10px rgb(0 0 0 / 50%);
+  box-shadow: 10px 20px 8px 10px rgb(255 255 255 / 7%);
   text-algin: center;
   color:#ffffff;
+  font-size: 10px;
 }
 
 .container {

@@ -1,4 +1,6 @@
 import { geoSearch } from './geo.js';
+import { voiceSearch } from './speech.js';
+
 
 const apiKey = '87557ca63a853f6e5cb1c30813e124fc';
 const unit = 'metric'
@@ -44,9 +46,12 @@ form.addEventListener("submit", async e => {
   paintCard(result);
 });
     
-voiceButton.addEventListener("click", async eventspeech => {
-   console.log('Voice button activated!');
-    eventspeech.preventDefault();
+voiceButton.addEventListener("click", async eventVoice => {
+    eventVoice.preventDefault();
+    console.log('Voice button activated!'); 
+    voiceSearch(function(result){
+      console.log(result);
+    });
 
 });
 

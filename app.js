@@ -3,6 +3,9 @@ const unit = 'metric'
 const form = document.querySelector('#weather-form');
 const placeholder = document.querySelector('#weather-result')
 const input = document.querySelector("input");
+const voiceButton = document.querySelector("#use-voice");
+const locationButton = document.querySelector("#use-location");
+
 // const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 // img url https://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png
 
@@ -38,6 +41,9 @@ form.addEventListener("submit", async e => {
   
   const result = await getTheWeather(input.value);
   console.log(result);
-  
-})
+  paintCard(result);
+});
     
+voiceButton.addEventListener("click", async event => {
+   console.log('I clicked the voice button!');
+})

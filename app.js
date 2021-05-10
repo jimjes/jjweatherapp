@@ -42,11 +42,13 @@ form.addEventListener("submit", async e => {
   paintCard(result);
 });
     
-voiceButton.addEventListener("click", async event => {
+voiceButton.addEventListener("click", async event1 => {
    console.log('Voice button activated!');
+    event1.preventDefault();
+
 });
 
-locationButton.addEventListener("click", async event => {
-  event.preventDefault();
+locationButton.addEventListener("click", async event2 => {
+  event2.preventDefault();
    console.log('Location button activated!');
 });

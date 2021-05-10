@@ -13,12 +13,8 @@ function getTheWeather(localcity){
   
 }
 
-
-form.addEventListener("submit", async e => {
-    e.preventDefault();
-  const result = await getTheWeather(input.value);
-  console.log(result);
-  const template = `
+function paintCard(result) {
+    const template = `
   
   <div class="card" id="grad1">
   <p><img class="imgsha" src="https://openweathermap.org/img/wn/${result.weather[0].icon}@4x.png"></p>
@@ -30,11 +26,18 @@ form.addEventListener("submit", async e => {
   
   Min Temperature: ${result.main.temp_min}<sup>°C</sup></b><br />
   
-  <b>Humidity: ${result.main.humidity}</b></p>
+  Humidity: ${result.main.humidity}</p>
 
   </div>
   `
   placeholder.innerHTML = template;
+}
+
+form.addEventListener("submit", async e => {
+    e.preventDefault();
+  
+  const result = await getTheWeather(input.value);
+  console.log(result);
   
 })
     

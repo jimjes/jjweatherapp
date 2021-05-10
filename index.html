@@ -7,16 +7,22 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
         <script src="/app.js" defer></script>
   </head>
+
 <body>
   
     <div class="container">
     <h1>JJ's<br/>Global Climate<br/>Monitoring Center</h1>
     <form name="weather" id="weather-form">
-      <input type="text" placeholder="Your City" autofocus>
-      <p></p>
+    <input type="text" placeholder="Your City" autofocus>
+    <p></p>
         
       
-      <button type="submit">SEARCH</button>
+            <button  type="submit">Search</button>
+      
+            <button type="submit" id="use-location">Use my Location</button>
+
+            <button type="submit" id="use-voice">Use my Voice</button>
+
     </form>
     <div id="weather-result"></div>
   </div>

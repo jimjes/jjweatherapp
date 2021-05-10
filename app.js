@@ -47,11 +47,13 @@ form.addEventListener("submit", async e => {
 });
     
 voiceButton.addEventListener("click", async eventVoice => {
-    eventVoice.preventDefault();
-    console.log('Voice button activated!'); 
-    voiceSearch(function(result){
-      console.log(result);
-    });
+     eventVoice.preventDefault();
+  console.log('Voice button activated!'); 
+  voiceSearch(async function(voice){
+      const cityName = voice.results[0][0].transcript;
+      const result = await getTheWeather(cityName);
+      paintCard(result);
+  });
 
 });
 

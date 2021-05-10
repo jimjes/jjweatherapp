@@ -5,7 +5,7 @@
   "short_name": "GCMC-JJ",
   "scope": "/",
   "display": "fullscreen",
-  "start_url": "https://jj-weather.glitch.me/",
+  "start_url": "https://jj-weather-2.glitch.me/",
   "background_color": "#000000",
   "theme_color": "transparent",
   "description": "",
@@ -48,7 +48,7 @@
       "sizes": "128x128"
     }
   ],
-  "url": "https://jj-weather.glitch.me/",
+  "url": "https://jj-weather-2.glitch.me/",
   "generated": true,
   "screenshots": []
 }

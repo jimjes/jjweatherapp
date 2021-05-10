@@ -11,15 +11,13 @@ const locationButton = document.querySelector("#use-location");
 
 function getTheWeather(localcity){
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${localcity}&appid=${apiKey}&units=metric`;
-
   return fetch(url).then(response => response.json());
-  
 }
 
 function paintCard(result) {
     const template = `
-  
   <div class="card" id="grad1">
+  
   <p><img class="imgsha" src="https://openweathermap.org/img/wn/${result.weather[0].icon}@4x.png"></p>
   
   <h2>${result.name}, ${result.sys.country}</h2>
@@ -44,6 +42,11 @@ form.addEventListener("submit", async e => {
   paintCard(result);
 });
     
-voiceButton.addEventListener("click", async e => {
-   console.log('I clicked the voice button!');
+voiceButton.addEventListener("click", async event => {
+   console.log('Voice button activated!');
+});
+
+locationButton.addEventListener("click", async event => {
+  event.preventDefault();
+   console.log('Location button activated!');
 });

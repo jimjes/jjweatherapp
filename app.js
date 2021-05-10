@@ -1,3 +1,5 @@
+import { geoSearch } from './geo.js';
+
 const apiKey = '87557ca63a853f6e5cb1c30813e124fc';
 const unit = 'metric'
 const form = document.querySelector('#weather-form');
@@ -42,13 +44,15 @@ form.addEventListener("submit", async e => {
   paintCard(result);
 });
     
-voiceButton.addEventListener("click", async event1 => {
+voiceButton.addEventListener("click", async eventspeech => {
    console.log('Voice button activated!');
-    event1.preventDefault();
+    eventspeech.preventDefault();
 
 });
 
-locationButton.addEventListener("click", async event2 => {
-  event2.preventDefault();
+locationButton.addEventListener("click", async eventlocation => {
+  eventlocation.preventDefault();
    console.log('Location button activated!');
+  const result = await geoSearch(apiKey);
+  paintCard(result);
 });

@@ -44,6 +44,6 @@ form.addEventListener("submit", async e => {
   paintCard(result);
 });
     
-voiceButton.addEventListener("click", async event => {
+voiceButton.addEventListener("click", async e => {
    console.log('I clicked the voice button!');
-})
+});
